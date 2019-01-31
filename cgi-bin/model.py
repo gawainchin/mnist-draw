@@ -1,3 +1,5 @@
+
+
 """
 Define Convolutional Nerual Network model for MNIST input
 """

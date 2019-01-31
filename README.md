@@ -1,4 +1,4 @@
-# mnist-draw
+# mnist-learn
 This repository contains a single page website that enables users to hand-draw and classify digits (0-9) using machine learning. A machine learning model trained against the MNIST dataset is used for classification. 
 
 # Setup 
@@ -6,14 +6,17 @@ Python 3.5+ is required for compatability with all required modules
 
 ```bash
 # Clone this repository
-git clone https://github.com/rhammell/mnist-draw.git
+git clone https://github.com/gawainchin01/mnist-learn.git
 
 # Go into the repository
-cd mnist-draw
+cd mnist-learn
 
 # Install required modules
 pip install -r requirements.txt
 ```
+# Need to add your python 3 path at py files
+#!/Users/xxx/anaconda/bin/python3  (for example)
+
 
 # Usage
 To launch the website, begin by starting a Python server from the repository folder:
@@ -41,3 +44,4 @@ The defined CNN can be trained against the MNIST dataset by running the `train.p
 
 The `mnist.py` script implements this trained model against the user's hand-drawn input. When the 'Predict' button is clicked, the contents of the drawing canvas are posted to this script as data url, and a JSON object containing the model's predictions is returned. 
 
+# mnist-learn
