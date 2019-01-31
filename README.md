@@ -9,7 +9,7 @@ Python 3.5+ is required for compatability with all required modules
 git clone https://github.com/gawainchin01/mnist-draw1.git
 
 # Go into the repository
-cd mnist-learn
+cd mnist-draw1
 
 # Install required modules
 pip install -r requirements.txt
